@@ -1,0 +1,23 @@
+.play-video{
+    height: 78px;
+    width: 78px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    text-indent: -9999px; 
+    position: relative;
+    box-shadow: 0 5px 15px 0 rgba(117, 78, 249, 0.16);
+}
+
+.play-video .arrow{
+    border-top: 10px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 12px solid #754ef9 ;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 30px;
+    top: 28px;
+
+}
