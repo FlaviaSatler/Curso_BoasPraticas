@@ -1,0 +1,27 @@
+.social-media {
+    padding-top: 250px;
+}
+
+.social-media a{
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+    background-position: center;
+    width: 20px;
+}
+
+.social-media .item:not(:last-child){
+    margin-bottom: 26px;
+}
+
+.social-media .-facebook{
+    background-image: url(../../img/Facebook\ icon.svg);
+}
+
+.social-media .-twitter{
+    background-image: url(../../img/Twitter\ icon.svg);
+}
+
+.social-media .-linkedin{
+    background-image: url(../../img/Linkedin\ icon.svg);
+}
