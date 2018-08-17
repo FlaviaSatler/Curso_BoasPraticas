@@ -1,32 +1,21 @@
-section{
-    position: relative;
-}
-
-.title-rotate{
+ .title-rotate {
     position: absolute;
+    top: 0;
     left: 0;
-    top: 0; 
     font-weight: 400;
     font-size: 18px;
     color: #754ef9;
     text-transform: uppercase;
-    transform: rotate(90deg);
     transform-origin: left bottom;
+    transform: rotate(90deg);
+    width: 224px;
 }
 
-/*regras position absolute: 
-- Cria um novo contexto, fica uma camada a frente
-- A referencia de top, left ... se torna o browser
-- Podemos mudar a referencia, colocando o pai com o position diferente 
-de "static"(que é o padrão), podendo colocar relative, por exemplo.
-
-*/
-
-.title-rotate::after{
+.title-rotate::after {
     content: '';
     display: inline-block;
-    width: 55px;
     height: 1px;
+    width: 55px;
     background-color: #754ef9;
     vertical-align: middle;
     margin-left: 20px;

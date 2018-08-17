@@ -1,7 +1,6 @@
 /* #btn = procurando no HTML uma tag que tenha o atributo id com o valor btn */
 /* .btn = prpcurando todos as tags que tem o atributo class com o valor btn dentro dela */
 .main-btn {
-    font-family: 'Open Sans';
     display: inline-block;
     padding: 14px 45px 14px 45px;
     border-radius: 100px;
@@ -15,6 +14,6 @@
     cursor: pointer;
 }
 
-.main-btn:hover{
+.main-btn:hover {
     opacity: 1;
 }
