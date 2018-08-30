@@ -1,14 +1,16 @@
 .main-card{
     display: inline-block;
     position: relative;
-    background-color: #754ef9;
+    background-color: rgb(117, 78, 249);
     width: 728px;
     height: 362px;
     vertical-align: top;    
     color: #f3f3f3;
+    background: linear-gradient(rgba(117, 78, 249,0.92), rgba(117, 78, 249,0.92)), url(../../img/baby.jpg);
+    background-size: cover; 
 }
 
-.main-card > .title{
+.main-card .title{
     font-size: 35px;
 }
 
